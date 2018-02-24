@@ -24,7 +24,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': ['frontend/dist'], ##
         'APP_DIRS': True,
-		...
+        ...
     },
 ]
 
@@ -45,5 +45,5 @@ urlpatterns = [
 
 django 1.0 use `url` function instead
 ```
-	url(r'^$', TemplateView.as_view(template_name='index.html'))
+    url(r'^$', TemplateView.as_view(template_name='index.html'))
 ```
